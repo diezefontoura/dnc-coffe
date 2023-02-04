@@ -1,0 +1,112 @@
+
+.btn{
+    box-sizing: border-box;
+
+    font-family:Arial, Helvetica, sans-serif;
+    
+
+    border: 1px solid #D1D1D1;
+    box-shadow: 0px 1px 2px 
+    rgba(105, 81, 255, 0.05);
+    border-radius: 36px;
+}
+.hideButton{
+    display: none;
+    width: auto;
+    margin: auto;
+    margin-bottom: 33px;
+    height: auto;
+}
+
+.card{
+    height: auto;
+}
+
+.card-body:hover +.hideButton{
+display: block;
+}
+
+.buttonBuy{
+    width: 202px;
+    height: 48px;
+    margin: auto;
+    background: #2A3342;
+    color: #FFF;
+    border-radius: 10px;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+dialog::backdrop{
+    background-color: rgba(217, 217,217, 0.7);
+}
+
+dialog{
+    position: absolute;
+    width: 671px;
+    height: 500px;
+    left:0px;
+    top:25px;
+
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+
+    align-items: center;
+    padding:10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+dialog h3 {
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
+    line-height: 40px;
+   
+}
+
+dialog p {
+    text-align: center;
+    padding: 10px;
+    line-height: 40px;
+}
+
+#bt-modal{
+    position: absolute;
+    width: 253px;
+    height: 48px;
+    left: 209px;
+    top: 320px;
+    border-radius: 10px;
+    color: #F6F5FB;
+    
+
+    background: #2A3342;
+    border: 1px solid rgba(0, 0,0, 0.3);
+}
+
+#button{
+    position: absolute;
+    top: 20px;
+    left: 630px;
+    border: none;
+    
+}
+
+.card-text{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size:  14px;
+    line-height: 20px;
+
+}
